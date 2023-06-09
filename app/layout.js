@@ -15,7 +15,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={clsx(inter.className, styles.container)}>
         <header>
-          <Link href="/">Henry Meds</Link>
+          <h1>
+            <Link href="/">
+              <span>&lt;-</span> Henry Meds
+            </Link>
+          </h1>
         </header>
         {children}
       </body>
